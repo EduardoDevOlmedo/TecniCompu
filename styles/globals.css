@@ -1,16 +1,172 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: calc(0.75em + 1vmin);
+    background-color: #303030 !important;
+}
+html { overflow-y:scroll; }
+
+:root {
+/* Colors: */
+--unnamed-color-030303: #030303;
+
+/* Font/text values */
+--unnamed-font-family-roboto: Roboto;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-size-20: 20px;
+--unnamed-font-size-23: 23px;
+--unnamed-font-size-26: 26px;
+--unnamed-font-size-37: 37px;
+--unnamed-font-size-81: 81px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-24: 24px;
+--unnamed-line-spacing-28: 28px;
+--unnamed-line-spacing-32: 32px;
+--unnamed-line-spacing-44: 44px;
+--unnamed-line-spacing-97: 97px;
+}
+
+/* Character Styles */
+.txt-header {
+font-family: var(--unnamed-font-family-roboto);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-37);
+line-height: var(--unnamed-line-spacing-44);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+}
+.titulos-grandes {
+font-family: var(--unnamed-font-family-roboto);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-81);
+line-height: var(--unnamed-line-spacing-97);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+}
+.h1 {
+font-family: var(--unnamed-font-family-roboto);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-26);
+line-height: var(--unnamed-line-spacing-32);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+}
+.h2 {
+font-family: var(--unnamed-font-family-roboto);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-23);
+line-height: var(--unnamed-line-spacing-28);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+}
+.texto {
+font-family: var(--unnamed-font-family-roboto);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-20);
+line-height: var(--unnamed-line-spacing-24);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-030303);
+
+}
+
+.line {
+    width: 30px;
+    max-width: 100px;
+    height: 1px;
+    margin: 10px;
+    background-color: #ffffff;
+}
+
+.title {
+    font: italic normal 900 80px var(--unnamed-font-family-roboto);
+    letter-spacing: 7.7px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 30px;
+}
+
+.back-img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+
+.nextui-image-container, .nextui-c-kltynt-fukMnu-cover-true   {
+    border-radius: 0 !important;
+}
+
+
+.nextui-c-bVLlAJ-idGkDDc-css {
+    width: 100% !important;
+}
+
+
+
+.nextui-c-kArxtH {
+    position: absolute;
+    height: inherit;
+}
+
+.nextui-c-kltynt-fukMnu-cover-true .nextui-c-kArxtH {
+    padding: 0px;
+    height: 400px;
+    position: absolute;
+}
+
+@media screen and (max-width: 900px){
+    .text-btitle {
+        font-size: 20px !important;
+    }
+    .title {
+        font: italic normal 900 35px var(--unnamed-font-family-roboto);
+    }
+}
+
+@media (max-width: 340px){
+    
+}
+
+.nextui-c-kRHeuF-ibTHXhT-css.xs {
+    flex-grow: 0;
+    display: inherit;
+    max-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+
+@media (min-width: 960px){
+.nextui-c-kRHeuF-ibTHXhT-css.sm {
+    flex-grow: 0;
+    display: inherit;
+    max-width: 30% !important;
+    flex-basis: 30 !important;
+    margin: 10px;
+}
+}
+
+
+.nextui-c-kRHeuF-ibTHXhT-css {
+    background: #303030;
+    padding: 10px !important;
+    border-radius: 10px;
 }
