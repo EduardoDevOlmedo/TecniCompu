@@ -12,7 +12,7 @@ const MainImage: React.FC<Props> = ({link,title = "GANA TODAS LAS PARTIDAS"} ) =
   
     return (
     <Card hoverable cover css={{background: '#303030', opacity: '85%', position: 'relative'}} >
-        <Card.Image alt='banner-img' css={{objectFit: 'cover !important', height: '400px'}} src={link}/>
+        <Card.Image alt='banner-img' css={{objectFit: 'cover !important', height: '400px'}} src={link!}/>
         <Card.Body>
         <Text h3
           css={{

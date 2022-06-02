@@ -32,7 +32,7 @@ const ProductSpecs: React.FC<Props> = ({product}) => {
                           <Text css={cssColors}>RAM: {product.specifications.RAM}</Text>
                           <Text css={cssColors}>Almacenamiento: {product.specifications.Storage}</Text>
                           {
-                              product.specifications.Cooler !== null && (
+                              product.specifications.Cooler !== undefined && (
                                   <Text css={cssColors}>Cooler: {product.specifications.Cooler}</Text>
                               )
                           }

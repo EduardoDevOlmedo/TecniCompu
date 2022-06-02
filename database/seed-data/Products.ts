@@ -173,7 +173,7 @@ export const computadoras: IComputadora[] = [
             videoCard: 'GeForce GTX 1660 Super',
             RAM: '6GB, 8GB DDR4',
             Storage: '500GB NVMe SSD',
-            Cooler: '2'
+            Cooler: ''
         }
     },
     {
