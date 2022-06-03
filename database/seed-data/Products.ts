@@ -279,5 +279,6 @@ export const computadoras: IComputadora[] = [
             RAM: ' 8GB de RAM',
             Storage: '512GB SSD',
             Screen:"15.6 Pulgadas FullHD",
-        }
-    }]
+    },
+}
+]
