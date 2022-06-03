@@ -36,7 +36,7 @@ const MainImage: React.FC<Props> = ({link,title = "GANA TODAS LAS PARTIDAS"} ) =
             top: '50%',
             mt: 40,
             width: '150px',
-            left: 'calc(50% - 75px)'
+            left: 'calc(50% - 95px)'
           }}
           ><a style={{color: 'inherit', textDecoration: 'none'}} href='#products'>Mirar las computadoras</a></Button>
         </Card.Body>
